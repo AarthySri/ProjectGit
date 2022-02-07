@@ -7,11 +7,16 @@ public class Employee {
 		private void Sub() {
 			System.out.println("subraction");
 		}
+		private void Div() {
+			System.out.println("divition");
+
+		}
 		public static void main(String[] args) {
 			
 			Employee e = new Employee();
 			e.Add();
 			e.Sub();
+			e.Div();
 		}
 
 }
