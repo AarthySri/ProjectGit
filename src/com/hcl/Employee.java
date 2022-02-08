@@ -13,16 +13,21 @@ public class Employee {
 		}
 		private void Mul() {
 			System.out.println("multiplication");
-
 		}
+		public void And() {
+			System.out.println("To perform AND operation");
+     	}
 		
 		public static void main(String[] args) {
 			
 			Employee e = new Employee();
 			e.Add();
 			e.Sub();
-			e.Div();
-			e.Mul();
+
+            e.Div();
+            e.Mul();
+
+			e.And();
 
 		}
 
